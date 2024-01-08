@@ -50,7 +50,8 @@ def push_to_repo(f_path, f_repo, d_branch, c_msg, content):
             content=content,
         )
 
-        print(f"Successfully pushed to {d_branch} branch in {f_repo} repository.")
+        print(
+            f"Successfully pushed to {d_branch} branch in {f_repo} repository.")
     except Exception as e:
         print(f"Error: {e}")
 
