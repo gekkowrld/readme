@@ -59,6 +59,8 @@ if __name__ == "__main__":
     repo = g.get_repo(git_repo)
     f_path = repo.get_readme()
     d_branch = get_default_branch(git_repo)
+
+    # Since most branches moved to "main" then use it incase
     if d_branch is None:
         d_branch = "main"
     c_msg = commit_msg

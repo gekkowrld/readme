@@ -9,7 +9,7 @@ inputs:
 		required: false
 	
 	COMMIT_MSG:
-		description: "Commit Message"
+		description: "The commit Message to be used"
 		default: "Add a commit"
 		required: false
 	
