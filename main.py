@@ -22,7 +22,7 @@ END_AT = getenv("END_AT")
 def get_default_branch(f_repo):
     """
 
-    :param f_repo:
+    :param f_repo: 
 
     """
     api_url = f"https://api.github.com/repos/{f_repo}"
@@ -39,7 +39,7 @@ def get_default_branch(f_repo):
 def calculate_language_size(f_repo):
     """
 
-    :param f_repo:
+    :param f_repo: 
 
     """
     for repo in g.get_user().get_repos():
@@ -50,11 +50,11 @@ def calculate_language_size(f_repo):
 def push_to_repo(f_path, f_repo, d_branch, c_msg, content):
     """
 
-    :param f_path:
-    :param f_repo:
-    :param d_branch:
-    :param c_msg:
-    :param content:
+    :param f_path: param f_repo:
+    :param d_branch: param c_msg:
+    :param content: 
+    :param f_repo: 
+    :param c_msg: 
 
     """
     try:
